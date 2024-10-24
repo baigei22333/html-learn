@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>背景图</title>
+
+    <style>
+        /* 盒子是 400 * 400 */
+        div {
+            width: 1500px;
+            height: 1500px;
+            /* 背景图默认是平铺(复制)的效果 */
+            background-color: pink;
+            /* no-repeat 不平铺 repeat 平铺 repeat-x x轴平铺 repeat-y y轴平铺 */
+            background-image: url(../day1/bgc.jpeg );
+            background-repeat: no-repeat;
+            /* background-repeat: repeat;
+            background-repeat: repeat-x;
+            background-repeat: repeat-y; */
+
+            /* 左上角 */
+            /* background-position: 0 0; */
+            /* background-position: left top; */
+            /* background-position: right bottom; */
+
+            /* 水平方向：正数向右，负数向左 */
+            /* background-position: 50px 0; */
+            /* background-position: -50px 0; */
+            /* 垂直方向：正数向下，负数向上 */
+            /* background-position: 0 100px; */
+            /* background-position: 0 -100px; */
+            /* background-position: 50px center; */
+
+            /* 特殊写法 */
+            /* 关键字写法水平和垂直方向可以颠倒顺序 */
+            /* background-position: bottom left; */
+
+            /* 关键字可以只些一个，另一个方向居中 */
+            /* background-position: bottom; */
+
+            /* 数字写法写一个只表示水平方向的，垂直方向自动居中 */
+            background-position: 50px;
+
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>div 标签</div>
+</body>
+
+</html>
