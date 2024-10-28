@@ -1,0 +1,116 @@
+/* 首页CSS央视 */
+/* 版心 */
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+
+/* 头部区域 */
+.header {
+    height: 100px;
+    background-color: #fff;
+}
+
+
+.header .wrapper {
+    display: flex;
+    padding-top: 29px;
+}
+
+/* logo 区域 */
+.logo a {
+
+    display: block;
+    width: 195px;
+    height: 41px;
+    background-image: url(../images/logo.png);
+
+    /* 隐藏文字 */
+    font-size: 0;
+}
+
+/* 导航区域 */
+.nav {
+    margin-left: 102px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+
+.nav li {
+    margin-right: 24px;
+}
+
+.nav li a {
+    display: block;
+    padding: 6px 8px;
+    line-height: 27px;
+    font-size: 19px;
+}
+
+/* active 类选择器，表示默认选中的 a 标签 */
+.nav li .active,
+.nav li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+/* 搜索区域 */
+
+.search {
+    display: flex;
+    margin-left: 64px;
+    padding-left: 19px;
+    padding-right: 12px;
+    width: 412px;
+    height: 40px;
+    background-color: #f3f5f7;
+    border-radius: 20px;
+}
+
+.search input {
+    flex: 1;
+    border: 0 solid #000;
+    background-color: transparent;
+
+    /* 去掉表单控件的焦点框 */
+    outline: none;
+}
+
+.search input::placeholder {
+    font-size: 14px;
+    color: #999;
+}
+
+/* 父级是flex布局，子级变弹性盒子：加宽高生效 */
+.search a {
+    align-self: center;
+
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/search.png);
+}
+
+/* 用户区域 */
+.user {
+    margin-left: 32px;
+    margin-top: 4px;
+}
+
+.user img {
+    /* vertical-align 行内块和行内 垂直方向对齐方式 */
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+.user span {
+    font-size: 16px;
+    color: #666;
+    
+}
