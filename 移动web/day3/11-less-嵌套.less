@@ -1,0 +1,21 @@
+.father {
+    color: red;
+
+    .son {
+        width: 200px;
+
+        a {
+            color: green;
+
+            // & 表示当前选择器 ，代码写到谁的大括号里面就表示谁，不会生成后代选择器
+            &:hover {
+                color: orange;
+            }
+        }
+
+        // a:hover {
+        //     color: blue;
+        // }
+
+    }
+}
