@@ -1,0 +1,221 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, PingFangSC-Regular, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+img {
+  vertical-align: bottom;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  background-color: #f9fafb;
+}
+header {
+  z-index: 999;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 13.33333333vw;
+  padding: 0 4vw;
+  background-color: #fff;
+}
+header .left {
+  width: 62.66666667vw;
+  height: 13.33333333vw;
+  background-image: url(../assets/head.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header a {
+  border-radius: 4vw;
+  width: 21.33333333vw;
+  height: 8vw;
+  background-color: #ffe31b;
+  text-align: center;
+  line-height: 8vw;
+  font-size: 3.73333333vw;
+}
+.search {
+  margin-top: 13.33333333vw;
+  height: 13.86666667vw;
+  padding: 2.66666667vw 4vw;
+}
+.search .txt {
+  height: 8.53333333vw;
+  background-color: #f2f4f5;
+  border-radius: 4.26666667vw;
+  text-align: center;
+  line-height: 8.53333333vw;
+  color: #a1a4b3;
+}
+.search .txt span {
+  font-size: 3.73333333vw;
+}
+.search .txt .iconfont {
+  font-size: 4.26666667vw;
+}
+.banner {
+  height: 28.8vw;
+  padding: 0 4vw;
+}
+.banner ul li {
+  width: 92vw;
+  height: 28.8vw;
+}
+.banner ul li img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.33333333vw;
+  object-fit: cover;
+}
+.list {
+  margin-top: 5.33333333vw;
+  padding: 0 4vw;
+}
+.list .content li {
+  display: flex;
+  margin-bottom: 4.26666667vw;
+  height: 28vw;
+  background-color: #fff;
+  border-radius: 2.66666667vw;
+}
+.list .content li .pic {
+  margin-right: 5.33333333vw;
+}
+.list .content li .pic img {
+  width: 28vw;
+  height: 28vw;
+  border-radius: 2.66666667vw;
+}
+.list .content li .txt .more {
+  font-size: 3.73333333vw;
+  color: #333;
+}
+.list .content li .txt .more .iconfont {
+  font-size: 4.26666667vw;
+}
+.list .content li .txt a {
+  display: block;
+  font-size: 3.2vw;
+  color: #a1a4b3;
+  line-height: 1.8;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4.26666667vw;
+  height: 6.66666667vw;
+  line-height: 6.66666667vw;
+}
+.title h4 {
+  font-size: 5.33333333vw;
+}
+.title a {
+  font-size: 3.2vw;
+  color: #a1a4b3;
+}
+.title a .iconfont {
+  font-size: 4.26666667vw;
+}
+.recommend {
+  padding: 0 4vw;
+}
+.recommend .content ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.recommend .content ul li {
+  margin-bottom: 4.26666667vw;
+  width: 28vw;
+  height: 38.13333333vw;
+}
+.recommend .content ul li .pic {
+  position: relative;
+  width: 28vw;
+  height: 28vw;
+}
+.recommend .content ul li .pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2.66666667vw;
+}
+.recommend .content ul li .pic .cover {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 18.66666667vw;
+  height: 7.46666667vw;
+  color: #fff;
+  text-align: center;
+  line-height: 7.46666667vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 0 2.66666667vw 0 2.66666667vw;
+  font-size: 3.73333333vw;
+}
+.recommend .content ul li .txt {
+  font-size: 3.73333333vw;
+}
+.download {
+  position: fixed;
+  left: 4vw;
+  bottom: 8vw;
+  padding: 0 2.66666667vw 0 4vw;
+  width: 92vw;
+  height: 12vw;
+  background-color: #fff;
+  border-radius: 5.86666667vw;
+}
+.download a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.download a img {
+  width: 9.6vw;
+  height: 9.6vw;
+  margin-right: 2.66666667vw;
+}
+.download a p {
+  flex: 1;
+  font-size: 3.73333333vw;
+}
+.download a .iconfont {
+  width: 8.53333333vw;
+  height: 8.53333333vw;
+  background-color: #f2f4f5;
+  border-radius: 50%;
+  line-height: 8.53333333vw;
+  text-align: center;
+  font-size: 4.26666667vw;
+}

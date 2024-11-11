@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>体验vm和vh</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* vw 和 vh 是相对于视口宽高计算结果，可以直接实现移动端适配效果 */
+        .box {
+            width: 50vw; 
+            height: 30vw;
+            background-color: pink;
+        }
+
+        .box {
+            width: 50vh;
+            height: 50vh;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>
